@@ -1,0 +1,20 @@
+# Track for DO typing
+
+# DO intron 2F  CAGGAGTTTGGGAACCAGAC
+# DO 892A       TGACCTCAACTGCAACCAGTT
+# DO 892C       GACCTCAACTGCAACCAGTC
+
+# exon 2
+browser position chr12:14,840,282-14,841,172
+
+# Doa
+
+track name="DO1 (Doa)" description="DO-typning med PCR-ASP-teknik (DO1)" visibility=1 colorByStrand="255,0,0 0,0,255"
+chr12 14840626 14840646 DOint2-F 1000 -
+chr12 14840484 14840505 DO-793A-R 1000 +
+
+# Dob
+
+track name="DO2 (Dob)" description="DO-typning med PCR-ASP-teknik (DO2)" visibility=1 colorByStrand="255,0,0 0,0,255" itemRGB="On"
+chr12 14840626 14840646 DOint2-F 1000 -
+chr12 14840485 14840505 DO-793G-R 1000 +
