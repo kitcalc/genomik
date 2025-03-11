@@ -1,0 +1,21 @@
+# Track for CO typing
+
+# Cor2-F CAAGAAGAAGCTCTTCTGGAGG
+# Coa-R  CACCTTCACGTTGTCCTGGACCG
+# Cob3-R CACCTTCACGTTGTCCTGGAACA
+
+# exon 1
+browser position chr7:30,911,853-30,912,314
+
+# Coa
+
+track name="CO1 (Coa)" description="CO-typning med PCR-ASP-teknik (CO1)" visibility=1 colorByStrand="255,0,0 0,0,255"
+chr7 30911923 30911945 Cor2-F 1000 +
+chr7 30912042 30912065 Coa-R 1000 -
+
+# Cob
+
+track name="CO2 (Cob)" description="CO-typning med PCR-ASP-teknik (CO2)" visibility=1 colorByStrand="255,0,0 0,0,255" itemRGB="On"
+chr7 30911923 30911945 Cor2-F 1000 +
+# last three are not matched in blat search, they are added here, however
+chr7 30912042 30912065 Cob3-R 1000 - 30912046 30912065
