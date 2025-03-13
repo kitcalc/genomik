@@ -24,4 +24,6 @@ https://raw.githubusercontent.com/kitcalc/genomik/refs/heads/main/metoder/FUT2.b
 
 https://raw.githubusercontent.com/kitcalc/genomik/refs/heads/main/metoder/FY.bed
 
+https://raw.githubusercontent.com/kitcalc/genomik/refs/heads/main/metoder/JK.bed
+
 https://raw.githubusercontent.com/kitcalc/genomik/refs/heads/main/metoder/KEL.bed
