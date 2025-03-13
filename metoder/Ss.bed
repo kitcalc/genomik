@@ -1,0 +1,22 @@
+# Track for Ss typing
+
+# GPB1640-F GGTAAGACTGACACATTACCTCAC
+# GPB143T   AGTGAAACGATGGACAAGTTCTCCCA
+# GPB143C   AGTGAAACGATGGACAAGTTCTCCCG
+
+# exon 3
+browser position chr4:143999407-143999628
+
+
+# MNS3 (S)
+
+track name="MNS3 (S)" description="Ss-typning med PCR-ASP-teknik (S)" visibility=1 colorByStrand="255,0,0 0,0,255" itemRGB="On"
+chr4 143999600 143999624 GPB1640-F 1000 -
+chr4 143999417 143999443 GPB143T 1000 +
+
+
+# MNS4 (s)
+
+track name="MNS4 (s)" description="Ss-typning med PCR-ASP-teknik (s) " visibility=1 colorByStrand="255,0,0 0,0,255" itemRGB="On"
+chr4 143999600 143999624 GPB1640-F 1000 -
+chr4 143999417 143999443 GPB143C 1000 +
