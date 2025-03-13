@@ -1,0 +1,20 @@
+# Track for KEL typing
+
+# K-EX5-S   AAGCCTTCCAGTTCTACAAC
+# K1-EX6-R  ACTCATCAGAAGTCTCAGCA
+# K2-EX6-R  ACTCATCAGAAGTCTCAGCG
+
+# exons 5-6
+browser position chr7:142,957,820-142,958,437
+
+# K (KEL1)
+track name="KEL1 (K)" description="KEL-typning med PCR-ASP-teknik (KEL1)" visibility=1 colorByStrand="255,0,0 0,0,255"
+chr7 142958369 142958389 K-EX5-S 1000 -
+chr7 142957901 142957921 K1-EX6-R 1000 +
+
+
+# k (KEL2)
+
+track name="KEL2 (k)" description="KEL-typning med PCR-ASP-teknik (KEL2)" visibility=1 colorByStrand="255,0,0 0,0,255" itemRGB="On"
+chr7 142958369 142958389 K-EX5-S 1000 -
+chr7 142957901 142957921 K2-EX6-R 1000 +
