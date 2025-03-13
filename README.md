@@ -21,7 +21,11 @@ Your graphical companion to genotyping methods.
 All filenames for copy-paste:
 
 https://raw.githubusercontent.com/kitcalc/genomik/refs/heads/main/metoder/CO.bed
+
 https://raw.githubusercontent.com/kitcalc/genomik/refs/heads/main/metoder/DO.bed
+
 https://raw.githubusercontent.com/kitcalc/genomik/refs/heads/main/metoder/FUT2.bed
+
 https://raw.githubusercontent.com/kitcalc/genomik/refs/heads/main/metoder/FY.bed
+
 https://raw.githubusercontent.com/kitcalc/genomik/refs/heads/main/metoder/KEL.bed
