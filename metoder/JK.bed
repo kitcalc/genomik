@@ -27,13 +27,22 @@ chr18 45739633 45739653 JK-937-R3 1000 -
 
 
 # IC
+
 track name="JK (380bp)" description="JK-typning med PCR-ASP-teknik (JK, 380bp)" visibility=1 colorByStrand="255,0,0 0,0,255" itemRGB="On"
 chr18 45739273 45739295 JK-780-F3 1000 +
 chr18 45739633 45739653 JK-937-R3 1000 -
 
 
 # JK*01W
+
 track name="JK*01W" description="JK*01W-typning med PCR-ASP-teknik" visibility=1 colorByStrand="255,0,0 0,0,255" itemRGB="On"
 chr18 45730428 45730450 JK-130A-F 1000 +
 chr18 45730428 45730450 JK-130G-F 1000 +
 chr18 45730682 45730703 Jkin4-R3 1000 -
+
+
+# JK*01W IC
+
+track name="JK*01W (380bp)" description="JK*01W-typning med PCR-ASP-teknik (JK, 380bp)" visibility=1 colorByStrand="255,0,0 0,0,255" itemRGB="On"
+chr18 45739273 45739295 JK-780-F3 1000 +
+chr18 45739633 45739653 JK-937-R3 1000 -
