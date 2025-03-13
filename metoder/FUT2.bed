@@ -1,0 +1,31 @@
+# Track for FUT2 typing
+
+# FUT2R.385A GGACGTACTCCCCCGGGAT
+# FUT2R.385T GGACGTACTCCCCCGGGAA
+# FUT2F.428G CGGCTACCCCTGCTCCTG
+# FUT2F.428A CGGCTACCCCTGCTCCTA
+# FUT-43F ccatctcccagctaacgtgtcc
+# FUT2+43R gggaggcagagaaggagaaaagg
+
+# exon 2
+browser position chr19:48702887-48704072
+
+# 385 A/T
+
+track name="FUT2 479bp" description="FUT2-typning med PCR-ASP-teknik (479bp)" visibility=1 colorByStrand="255,0,0 0,0,255" itemRGB="On"
+chr19 48702913 48702935 FUT-43F 1000 +
+chr19 48703374 48703392 FUT2R.385A 1000 -
+chr19 48703374 48703392 FUT2R.385T 1000 -
+
+# 428 A/G
+
+track name="FUT2 631bp" description="FUT2-typning med PCR-ASP-teknik (631bp)" visibility=1 colorByStrand="255,0,0 0,0,255" itemRGB="On"
+chr19 48704008 48704031 FUT2+43R 1000 -
+chr19 48703399 48703417 FUT2F.428G 1000 +
+chr19 48703399 48703417 FUT2F.428A 1000 +
+
+# IC
+
+track name="FUT2 1117bp" description="FUT2-typning med PCR-ASP-teknik (1117bp)" visibility=1 colorByStrand="255,0,0 0,0,255" itemRGB="On"
+chr19 48702913 48702935 FUT-43F 1000 +
+chr19 48704008 48704031 FUT2+43R 1000 -
