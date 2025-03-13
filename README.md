@@ -27,3 +27,5 @@ https://raw.githubusercontent.com/kitcalc/genomik/refs/heads/main/metoder/FY.bed
 https://raw.githubusercontent.com/kitcalc/genomik/refs/heads/main/metoder/JK.bed
 
 https://raw.githubusercontent.com/kitcalc/genomik/refs/heads/main/metoder/KEL.bed
+
+https://raw.githubusercontent.com/kitcalc/genomik/refs/heads/main/metoder/Ss.bed
