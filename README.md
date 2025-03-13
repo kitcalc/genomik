@@ -12,13 +12,9 @@ Your graphical companion to genotyping methods.
 
 ## Valid `FILENAME`s
 
-- [CO.bed](https://raw.githubusercontent.com/kitcalc/genomik/refs/heads/main/metoder/CO.bed)
-- [DO.bed](https://raw.githubusercontent.com/kitcalc/genomik/refs/heads/main/metoder/DO.bed)
-- [FUT2.bed](https://raw.githubusercontent.com/kitcalc/genomik/refs/heads/main/metoder/FUT2.bed)
-- [FY.bed](https://raw.githubusercontent.com/kitcalc/genomik/refs/heads/main/metoder/FY.bed)
-- [KEL.bed](https://raw.githubusercontent.com/kitcalc/genomik/refs/heads/main/metoder/KEL.bed)
+See available files in https://github.com/kitcalc/genomik/tree/main/metoder.
 
-All filenames for copy-paste:
+Filenames for copying:
 
 https://raw.githubusercontent.com/kitcalc/genomik/refs/heads/main/metoder/CO.bed
 
