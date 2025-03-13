@@ -1,0 +1,33 @@
+# Track for FY typing
+
+# GATAFY2     CTCATTAGTCCTTGGCTCTTAC
+# FYAREV      AGCTGCTTCCAGGTTGGCAC
+# FYBREV2     AGCTGCTTCCAGGTTGGCAT
+# FYXREV-271  CAGGGCAGAGCTGCCAGCA
+# FYXREV-304  TGCCCACAGCCAGCTGTGT
+# FYAB2       CTCATTAGTCCTTGGCTCTTAT
+
+# promoter + exons 1-2
+browser position chr1:159,204,626-159,206,251
+
+# Fy null, PM A+B 
+
+track name="Fy null a/b (PM A+B)" description="FY-typning med PCR-ASP-teknik (Fy null a/b)" visibility=1 colorByStrand="255,0,0 0,0,255" itemRGB="On"
+chr1 159204871 159204893 GATAFY2 1000 +
+chr1 159205563 159205583 FYAREV 1000 -
+chr1 159205563 159205583 FYBREV2 1000 -
+
+
+# Fy a/b, PM C+D
+
+track name="Fya/b (PM C+D)" description="FY-typning med PCR-ASP-teknik (Fya/b)" visibility=1 colorByStrand="255,0,0 0,0,255" itemRGB="On"
+chr1 159204871 159204893 FYAB2 1000 +
+chr1 159205563 159205583 FYAREV 1000 -
+chr1 159205563 159205583 FYBREV2 1000 -
+
+
+# Fyx, PM E+D
+track name="Fyx (PM E+F)" description="FY-typning med PCR-ASP-teknik (Fyx)" visibility=1 colorByStrand="255,0,0 0,0,255" itemRGB="On"
+chr1 159204871 159204893 FYAB2 1000 +
+chr1 159205703 159205722 FYXREV-271 1000 -
+chr1 159205736 159205755 FYXREV-304 1000 -
