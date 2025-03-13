@@ -1,0 +1,29 @@
+# Track for JK typing
+
+# JK-780-F3   CATGCTGCCATAGGATCATTGC
+# JKA-865-R1  CCCAGAGTCCAAAGTAGATGTC
+# JKB-823-F2  AGTCTTTCAGCCCCATTTGAGA
+# JK-937-R3   GAGCCAGGAGGTGGGTTTGC
+
+# exons 7-8
+browser position chr18:45739139-45739677
+
+
+# JK1 (Jka)
+
+track name="JK*01 (301bp, Jka)" description="JK-typning med PCR-ASP-teknik (JK*01, Jka, 301bp)" visibility=1 colorByStrand="255,0,0 0,0,255" itemRGB="On"
+chr18 45739273 45739295 JK-780-F3 1000 +
+chr18 45739553 45739575 JKA-865-R1 1000 -
+
+
+# JK2 (Jkb)
+
+track name="JK*02 (121bp, Jkb)" description="JK-typning med PCR-ASP-teknik (JK*02, Jkb, 121bp)" visibility=1 colorByStrand="255,0,0 0,0,255" itemRGB="On"
+chr18 45739532 45739554 JKB-823-F2  1000 +
+chr18 45739633 45739653 JK-937-R3 1000 -
+
+
+# IC
+track name="JK (380bp)" description="JK-typning med PCR-ASP-teknik (JK, 380bp)" visibility=1 colorByStrand="255,0,0 0,0,255" itemRGB="On"
+chr18 45739273 45739295 JK-780-F3 1000 +
+chr18 45739633 45739653 JK-937-R3 1000 -
