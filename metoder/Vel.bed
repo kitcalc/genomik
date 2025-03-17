@@ -1,0 +1,12 @@
+# Track for Vel typing
+
+# VEL-F (SMIM1ex3f) CGGAGTCAGCCTAGGGGC 
+# VEL-R (SMIM1ex3r) CTGGGCGCTCTGCTGGAG 
+
+# exons 3-4
+
+browser position chr1:3775276-3775995
+
+track name="Vel ASP" description="Vel-typning med PCR-teknik" visibility=1 colorByStrand="255,0,0 0,0,255"
+chr1 3775429 3775447 VEL-F_(SMIM1ex3f) 1000 +
+chr1 3775678 3775696 VEL-R_(SMIM1ex3r) 1000 -

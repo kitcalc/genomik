@@ -29,3 +29,5 @@ https://raw.githubusercontent.com/kitcalc/genomik/refs/heads/main/metoder/JK.bed
 https://raw.githubusercontent.com/kitcalc/genomik/refs/heads/main/metoder/KEL.bed
 
 https://raw.githubusercontent.com/kitcalc/genomik/refs/heads/main/metoder/Ss.bed
+
+https://raw.githubusercontent.com/kitcalc/genomik/refs/heads/main/metoder/Vel.bed
