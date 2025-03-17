@@ -1,0 +1,14 @@
+# Track for C2 typing
+
+# C2D1 BG 7999 Exon 6   AAA GCT TGG GCC GTA AAA TCC AGC G 
+# C2D2 BG 7998 Exon 6   GAG CAC AGG AAG GCC TCT CTG CAG G
+
+# exons 6-7
+
+browser position chr6_GL000256v2_alt:3235316-3235594
+
+# Genetisk typning av C2
+
+track name="C2 PCR" description="Genetisk typning av C2" visibility=1 colorByStrand="255,0,0 0,0,255"
+chr6_GL000256v2_alt 3235354 3235376 C2D1_BG_7999_Exon_6 1000 +
+chr6_GL000256v2_alt 3235507 3235533 C2D2_BG_7998_Exon_6 1000 -
