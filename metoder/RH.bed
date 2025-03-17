@@ -1,0 +1,126 @@
+# Track for RH typing
+
+# RHCi2F            cag ggc cac cac cat ttg aa
+# RHCint2rev3325    ACCTGGTGAAACCCCGTC
+# RH-int3X-F2       gtgaacctgggaggcaaatg
+# RH-Ψ4-495-R       AATAAAACCCAGTAAGTTCATGTGG
+# Rh603-s           AGCAACGATACCCAGTTTGTC
+# Rh771-a           GGATGACCCTGAGATGGCTG
+# RHD2F             GCT TGG GCT TCC TCA CCT CG
+# RHD2R             CAG TGT GAT GAC CAC CTT CCC AGA
+# RHD3F             TTG TCG GTG CTG ATC TCA GTG GA
+# RHD3R             ACT GAT GAC CAT CCT CAG GTT GCC
+# RHD4F             ACA TGA TGC ACA TCT ACG TGT TCG C
+# RHD4R             CAG ACA AAC TGG GTA TCG TTG CTG
+# RHD5F             ATG TTC TGG CCA AGT GTC AAC TCT G
+# RHD5R             ctg ctc acC TTG CTG ATC TTC CC
+# RHD6F             TTA TGT GCA CAG TGC GGT GTT GG
+# RHD6R             CAG GTA CTT GGC TCC CCC GAC
+# RHD7F             GTT GTA ACC GAG TGC TGG GGA TTC
+# RHD7R             TGC CGG CTC CGA CGG TAT C
+# RHD9F             tat gca ttt aaa cag GTT TGC TCC TAA ATC
+# RHD9R             AGA AAA CTT GGT CAT CAA AAT ATT TAG CCT
+# RHD10F            TCC TCA TTT GGC TGT TGG ATT TTA AG
+# RHD10R            CAG TGC CTG CGC GAA CAT TG
+# RHDw1-6-809F      acgctatttctttgcagACTTATGG
+# RHDw2-9-1154-F4   ctccaaatcttttaacattaaattatgcatttaaacagC
+# RHw3-1-8F         gagacggacacaggATGAGCTG
+# RH1-127R          CTTGATAGGATGCCACGAGCCC
+# RHDAR/Dw4-5-667F  CTTGTGGATGTTCTGGCCAAGTG
+# RHDw5-446R        TGACCATCCTCAGGTTGCCTAAAT
+# RH-rez7F          CCTGTCCCCATGATTCAGTTACC
+# RH-rnb31R         CCTTTTTTTGTTTGTTTTTGGCGGTGC
+
+# RH locus
+browser position chr1:25271992-25421765
+
+# RHC  XXXXX: fel frågat Åsa
+
+track name="RHC ASP" description="RHC-typning med PCR-ASP-teknik" visibility=1 colorByStrand="255,0,0 0,0,255"
+chr1 25406157 25406177 RHCi2F 1000 +
+chr1 25405466 25405484 RHCint2rev3325 1000 -
+
+
+# RHD/Ψ-typning med PCR-teknik
+
+# greek letters are not supported
+
+track name="RHD/psi" description="RHD/psi-typning med PCR-teknik" visibility=1 colorByStrand="255,0,0 0,0,255"
+chr1 25300725 25300745 RH-int3X-F2 1000 +
+# portion of primer matching intron 3, AATAAAACCCAGTAA
+chr1 25300925 25300941 RH-psi4-495-R(intron3) 1000 -
+
+
+# RH-typning med PCR-teknik
+
+track name="RH PCR (Simsek)" description="RH-typning med PCR-teknik (Simsek)" visibility=1 colorByStrand="255,0,0 0,0,255"
+# RHD ~600bp
+chr1 25301061 25301082 Rh603-s 1000 +
+chr1 25301636 25301656 Rh771-a 1000 -
+# RHCE ~120bp
+chr1 25392004 25392025 Rh603-s 1000 -
+chr1 25390778 25390798 Rh771-a 1000 +
+
+
+# RH-typning med PCR-ASP-teknik
+
+track name="RH ASP" description="RH-typning med PCR-ASP-teknik" visibility=1 colorByStrand="255,0,0 0,0,255"
+chr1 25284605 25284625 RHD2F 1000 +
+chr1 25284730 25284754 RHD2R 1000 -
+
+chr1 25290665 25290688 RHD3F 1000 +
+chr1 25290755 25290779 RHD3R 1000 -
+
+chr1 25300961 25300986 RHD4F 1000 +
+chr1 25301060 25301084 RHD4R 1000 -
+
+chr1 25301535 25301560 RHD5F 1000 +
+chr1 25301671 25301694 RHD5R 1000 -
+
+chr1 25389088 25389111 RHD6F 1000 -
+chr1 25303323 25303346 RHD6F 1000 +
+chr1 25303435 25303456 RHD6R 1000 -
+
+chr1 25306599 25306623 RHD7F 1000 +
+chr1 25306703 25306722 RHD7R 1000 -
+
+chr1 25321873 25321903 RHD9F 1000 +
+chr1 25321927 25321957 RHD9R 1000 -
+
+chr1 25328899 25328925 RHD10F 1000 +
+chr1 25329027 25329047 RHD10R 1000 -
+
+# off-targets in RHCE
+chr1 25408687 25408710 RHD2R 1000 +
+chr1 25392002 25392025 RHD4R 1000 +
+chr1 25390873 25390898 RHD5F 1000 -
+chr1 25385816 25385840 RHD7F 1000 -
+chr1 25370525 25370555 RHD9F 1000 -
+chr1 25370471 25370500 RHD9R 1000 +
+chr1 25362525 25362551 RHD10F 1000 -
+
+
+# RHD*01W.1-RHD*01W.5-typning med PCR-ASP-teknik
+
+track name="RHDw ASP" description="RHD*01W.1-RHD*01W.5-typning med PCR-ASP-teknik" visibility=1 colorByStrand="255,0,0 0,0,255"
+chr1 25303304 25303329 RHDw1-6-809F_(RHD*01W.1) 1000 +
+chr1 25303435 25303456 RHD6R 1000 -
+
+chr1 25321850 25321889 RHDw2-9-1154-F4_(RHD*01W.2) 1000 +
+chr1 25321927 25321957 RHD9R 1000 -
+
+chr1 25272533 25272555 RHDw3-1-8F_(RHD*01W.3) 1000 +
+chr1 25272673 25272695 RH1-127R 1000 -
+
+chr1 25301529 25301552 RHDAR/Dw4-5-667F_(RHD*01W.4) 1000 +
+chr1 25301671 25301694 RHD5R 1000 -
+
+chr1 25290665 25290688 RHD3F 1000 +
+chr1 25290750 25290774 RHDw5-446R_(RHD*01W.5) 1000 -
+
+
+# RHD/zygositetstypning med PCR-RFLP-teknik
+
+track name="RHD-zygositet RFLP" description="RHD/zygositetstypning med PCR-RFLP-teknik" visibility=1 colorByStrand="255,0,0 0,0,255"
+chr1 25333882 25333905 RH-rez7F 1000 +
+chr1 25336884 25336911 RH-rnb31R 1000 -
