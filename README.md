@@ -16,6 +16,8 @@ See available files in https://github.com/kitcalc/genomik/tree/main/metoder.
 
 Filenames for copying:
 
+https://raw.githubusercontent.com/kitcalc/genomik/refs/heads/main/metoder/C2.bed
+
 https://raw.githubusercontent.com/kitcalc/genomik/refs/heads/main/metoder/CO.bed
 
 https://raw.githubusercontent.com/kitcalc/genomik/refs/heads/main/metoder/DO.bed
